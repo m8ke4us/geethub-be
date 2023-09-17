@@ -27,7 +27,10 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
 	implementation 'org.kohsuke:github-api:1.301'
+
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2' // swagger
 }
 
 tasks.named('test') {
